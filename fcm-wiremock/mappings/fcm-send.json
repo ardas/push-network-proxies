@@ -1,21 +1,13 @@
 {
     "request": {
-        "url": "/fcm/send",
+        "url": "/v1/projects/mock_project/messages:send",
         "method": "POST"
     },
     "response": {
         "status": 200,
         "fixedDelayMilliseconds": 10,
         "jsonBody": {
-            "multicast_id": 108,
-            "success": 1,
-            "failure": 0,
-            "canonical_ids": 0,
-            "results": [
-                {
-                    "message_id": "1:08"
-                }
-            ]
+	        "name": "projects/mock_project/messages/0:1500415314455276%31bd1c9631bd1c96"
         },
         "headers": {
             "Content-Type": "application/json"
