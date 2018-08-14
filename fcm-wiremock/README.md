@@ -6,7 +6,7 @@ Mocked FCM server crafted with Wiremock, shipped inside a Docker container.
 To build the image run:
 
 ```
-$ docker build -t fcm-wiremock .
+$ docker build -t esputnik/fcm-wiremock  .
 ```
 And to run it:
 ```

@@ -3,11 +3,11 @@
         "url": "/v1/projects/mock_project/messages:send",
         "method": "POST",
 	"bodyPatterns" : [ {
-	      "matchesJsonPath" : "$.message[?(@.token == 'ab_token')]"
+	      "matchesJsonPath" : "$.message[?(@.token == 'unregistered_token')]"
 	    } ]
     },
     "response": {
-        "status": 200,
+        "status": 404,
         "fixedDelayMilliseconds": 10,
         "jsonBody": {
 	    "name": "projects/mock_project/messages/0:1500415314455276%31bd1c9631bd1c96"
